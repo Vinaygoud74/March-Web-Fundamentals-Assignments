@@ -1,19 +1,24 @@
-*{
-    border-sizing: border-box;
-}
+
 body{
+
     font-size: 2em;
     color: white;
-    font-family: "Times New Romans";
-
+    border: 2px solid black;
+    
+    padding-left: 0px;
+    margin-left: 200px;
+    margin-right: 1500px;
+    
+    
 }
+
 .wrapper{
-    max-width: 400px;
+    max-width: 600px;
     margin: 30px;
     display:grid;
     grid-template-columns: repeat(2,3fr);
-    grid-gap:10px;
-    grid-auto-rows: minmax(100px,auto);
+    grid-gap:20px;
+
 }
 .wrapper > div {
     background-color:gray;
