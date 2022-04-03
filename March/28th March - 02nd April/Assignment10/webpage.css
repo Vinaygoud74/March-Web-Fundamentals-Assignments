@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+font-family:'Roboto';
+background-image:url("");
+}
+.container{
+    display:grid;
+    grid-template-areas:'leftside rightside' ;
+    background-image: url("https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?cs=srgb&dl=pexels-travis-blessing-1363876.jpg&fm=jpg")
+}
+.leftside{
+    padding-left: 500px;
+    margin-top: 350px;
+    color:white;
+}
+.rightside{
+    padding:10rem;
+    
+    color:rgb(170, 126, 126);
+}
+h2{
+    font-size: 50px;
+    background:rgb(3, 90, 160);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-filling-color:transparent;
+    padding-left:0px
+}
+.input.container i{
+    position:absolute;
+    padding: 15px;
+    color:#9f2b2b;
+}
+
+#new input[type=text],[type=password],[type=date],[type=submit]{
+    width:40%;
+    padding-top:10px;
+    text-align:left;
+    margin-bottom:10px;
+    border-radius:20px;
+    outline: 10px;
+    border:10px ;
+
+}
+form{background-color:white;
+    width:90%;
+    height:100%;
+    border-radius: 20px;
+    padding:20px;
+
+
+    
+}
+.be{
+    color:rgb(213, 9, 196);
+    font-size: 22px;
+}
+button{
+    color:white;
+    background-color:rgb(29, 97, 157);
+    width:30%;
+    height:10%;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+.graph{
+    color:black;
+}

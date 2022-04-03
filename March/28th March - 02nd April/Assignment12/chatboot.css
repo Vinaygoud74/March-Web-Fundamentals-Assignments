@@ -1,0 +1,58 @@
+
+body{
+    background-image: url("https://www.imagediamond.com/blog/wp-content/uploads/2020/03/Indian-Army-Dp-download-2021-18.jpg");
+    background-size: 50%;
+}
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(61, 99, 118);
+  }
+  .form-container textarea {
+    width: 100%;
+    padding: 1px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  
+  .form-container textarea:focus {
+    background-color: rgb(30, 167, 213);
+    outline: none;
+  }
+  
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 16px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  

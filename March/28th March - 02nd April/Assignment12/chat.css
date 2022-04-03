@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Ubuntu+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant+Garamond";
+
+
+}
+body {
+    width: 1400;
+    height:100px;
+    padding: 50;
+    background:no-repeat scroll;
+    background-color:black;
+    background-size:cover;
+}
+header{
+    position: right;
+    width: 80%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+header .logo{
+    position: relative;
+    color: rgb(17, 189, 208);
+    font-size: 40px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: 50;
+    letter-spacing: 2px;
+}
+header .navigation a{
+    color: rgb(134, 127, 127);
+    background-color: rgb(17, 86, 117);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing:3px;
+    padding: 8px 40px;
+}
+header.navigationa:hover{
+    background-color: rgb(194, 50, 50);
+}
+.content{
+    max-width: 4500px;
+    margin: 60px 100px;
+    font-size: 15px;
+    color:rgb(238, 243, 247);
+    
+}
+.content .info h2{
+    color:#18b8e9;
+    font-size:50px;
+    text-transform:uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom:30px;
+}
+#head{
+    color:greenyellow;
+}
+#slog{
+    color:orange;
+}
+input {
+    width: 40%; 
+    padding: 5px;  
+    border: rgb(153, 13, 13);
+    border-radius: 4px; 
+    margin-top: 5px; 
+    margin-bottom: 10px;
+    resize: vertical;
+    background-color:transparent;
+    color: rgb(5, 125, 155);
+    text-align: ri;
+  }
+  
+
+
+  .application {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    color:#18b8e9;
+    text-align: left; 
+  }
+  .footer-dark {
+    padding:50px 0;
+    color:#2a80b9;
+    background-image:url("https://w0.peakpx.com/wallpaper/596/973/HD-wallpaper-indian-army-background-india-styles.jpg");
+    background-size:150px;
+    text-align: center;
+    
+  }
+  .social{
+      text-align: center;
+      padding: 50px;
+      
+    }
+    .copyright{
+        text-align: center;
+        color:#18b8e9
+    }
+    #coat{
+        color :rgb(106, 24, 51);
+        text-align: center;
+    }
+#quote{
+    color : orange;
+    text-align: center;
+}
+#flag{
+   
+    width: 8%;
+    float: right;
+    padding-right: 100px;
+    height: 100px;
+    
+}
+  #Results{
+      height:250px;
+      float: right;
+      padding-right: 100px;
+      padding-top: 60px;
+  }
+  #scr{
+      color:orange;
+  }
+  #sccr{
+      color:rgb(236, 82, 82);
+  }
+  .filling{
+      margin-left:400px;
+  }
+  
+  

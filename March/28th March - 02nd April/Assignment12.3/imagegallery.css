@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:skyblue;
+}
+.wrapper{
+   width:auto;
+margin:45px 0; 
+}
+.image-gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding:0px;
+    margin: 50px;
+}
+.image-gallery-item{
+    width:280px;
+    height: 200px;
+    border:2px solid skyblue;
+    cursor:pointer;
+    position: relative;
+    
+}
+.image-gallery-item img{
+    width:100%;
+    height:100;
+    display:flex;
+
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    justify-content: space-evenly;
+    
+}
+
